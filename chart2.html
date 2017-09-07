@@ -1,0 +1,91 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>test</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            setAnyChartFun();
+        });
+        function setAnyChartFun(){
+            var dataAxis = ['9.15', '9.16', '9.17', '9.18', '9.19', '9.20', '9.21', '9.22', '9.23', '9.24'];
+            var data1 = [10, 52, 70, 98, 36, 77, 89,84,32,65];
+            var data2 = [10, 52, 100, 150, 200, 250, 300,350,400,430];
+            var myChart = echarts.init(document.getElementById('echartu'));
+
+            option = {
+                color: ['#3398DB'],
+                tooltip : {
+                    trigger: 'axis',
+                    axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+                        type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+                    }
+                },
+                legend: {
+                    data:['时段水方（万m³）','累计水方（万m³）'],
+                },
+                grid: {
+                    left: '3%',
+                    right: '4%',
+                    bottom: '3%',
+                    containLabel: true
+                },
+                calculable : true,
+                xAxis : [
+                    {
+                        type : 'category',
+                        data : dataAxis,
+                        axisTick: {
+                            alignWithLabel: true
+                        }
+                    }
+                ],
+                yAxis : [
+                    {
+                             type: 'value',
+                             name: '时段水方',
+                             position: 'left',
+                                axisLabel: {
+                                    formatter: '{value} （万m³）'
+                                }
+                    },
+                    {
+                        type: 'value',
+                        name: '累计水方',
+                        min: 0,
+                        max: 500,
+                        position: 'right',
+                        axisLabel: {
+                            formatter: '{value} （万m³）'
+                        }
+                    },
+                ],
+                series : [
+                    {
+                        name:'时段水方（万m³）',
+                        type:'bar',
+                        barWidth: '20%',
+                        yAxis: 1,
+                        itemStyle:{normal:{color:'#d14a61'}},
+                        data:data1
+                    },
+                    {
+                            name:'累计水方（万m³）',
+                            type:'line',
+                             yAxisIndex: 1,
+                            data:data2
+                    }
+
+                ]
+            };
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+        }
+    </script>
+</head>
+<body>
+<form id="form1" runat="server">
+    <div id="echartu">
+    </div>
+</form>
+</body>
+</html>

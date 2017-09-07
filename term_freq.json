@@ -1,0 +1,220 @@
+{
+  "axes": [
+    {
+      "scale": "x",
+      "type": "x"
+    },
+    {
+      "scale": "y",
+      "type": "y"
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "col": "data",
+          "idx": "RT",
+          "val": 2419
+        },
+        {
+          "col": "data",
+          "idx": "Market",
+          "val": 2075
+        },
+        {
+          "col": "data",
+          "idx": "market",
+          "val": 2027
+        },
+        {
+          "col": "data",
+          "idx": "unemployment",
+          "val": 550
+        },
+        {
+          "col": "data",
+          "idx": "Stock",
+          "val": 494
+        },
+        {
+          "col": "data",
+          "idx": "time",
+          "val": 469
+        },
+        {
+          "col": "data",
+          "idx": "The",
+          "val": 462
+        },
+        {
+          "col": "data",
+          "idx": "high",
+          "val": 458
+        },
+        {
+          "col": "data",
+          "idx": "@realDonaldTrump",
+          "val": 436
+        },
+        {
+          "col": "data",
+          "idx": "years",
+          "val": 429
+        },
+        {
+          "col": "data",
+          "idx": "2017",
+          "val": 429
+        },
+        {
+          "col": "data",
+          "idx": "base",
+          "val": 418
+        },
+        {
+          "col": "data",
+          "idx": "going",
+          "val": 417
+        },
+        {
+          "col": "data",
+          "idx": "start",
+          "val": 413
+        },
+        {
+          "col": "data",
+          "idx": "Global",
+          "val": 409
+        },
+        {
+          "col": "data",
+          "idx": "level",
+          "val": 406
+        },
+        {
+          "col": "data",
+          "idx": "lowest",
+          "val": 405
+        },
+        {
+          "col": "data",
+          "idx": "wages",
+          "val": 401
+        },
+        {
+          "col": "data",
+          "idx": "neve",
+          "val": 395
+        },
+        {
+          "col": "data",
+          "idx": "This",
+          "val": 311
+        }
+      ]
+    },
+    {
+      "name": "stats",
+      "source": "table",
+      "transform": [
+        {
+          "keys": [
+            "data.idx"
+          ],
+          "type": "facet"
+        },
+        {
+          "type": "stats",
+          "value": "data.val"
+        }
+      ]
+    }
+  ],
+  "height": 500,
+  "legends": [],
+  "marks": [
+    {
+      "from": {
+        "data": "table",
+        "transform": [
+          {
+            "keys": [
+              "data.col"
+            ],
+            "type": "facet"
+          },
+          {
+            "height": "data.val",
+            "point": "data.idx",
+            "type": "stack"
+          }
+        ]
+      },
+      "marks": [
+        {
+          "properties": {
+            "enter": {
+              "fill": {
+                "field": "data.col",
+                "scale": "color"
+              },
+              "width": {
+                "band": true,
+                "offset": -1,
+                "scale": "x"
+              },
+              "x": {
+                "field": "data.idx",
+                "scale": "x"
+              },
+              "y": {
+                "field": "y",
+                "scale": "y"
+              },
+              "y2": {
+                "field": "y2",
+                "scale": "y"
+              }
+            }
+          },
+          "type": "rect"
+        }
+      ],
+      "type": "group"
+    }
+  ],
+  "padding": "auto",
+  "scales": [
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.idx"
+      },
+      "name": "x",
+      "range": "width",
+      "type": "ordinal",
+      "zero": false
+    },
+    {
+      "domain": {
+        "data": "stats",
+        "field": "sum"
+      },
+      "name": "y",
+      "nice": true,
+      "range": "height"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.col"
+      },
+      "name": "color",
+      "range": "category20",
+      "type": "ordinal"
+    }
+  ],
+  "width": 960
+}

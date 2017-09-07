@@ -1,0 +1,391 @@
+{
+  "axes": [
+    {
+      "scale": "x",
+      "title": "Time",
+      "type": "x"
+    },
+    {
+      "scale": "y",
+      "title": "Value",
+      "type": "y"
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "col": "sentiment",
+          "idx": 1501516800000,
+          "val": 105.01147383056762
+        },
+        {
+          "col": "Close",
+          "idx": 1501516800000,
+          "val": 150.050003
+        },
+        {
+          "col": "sentiment",
+          "idx": 1501603200000,
+          "val": 742.4717558766432
+        },
+        {
+          "col": "Close",
+          "idx": 1501603200000,
+          "val": 157.139999
+        },
+        {
+          "col": "sentiment",
+          "idx": 1501689600000,
+          "val": 274.65131059495536
+        },
+        {
+          "col": "Close",
+          "idx": 1501689600000,
+          "val": 155.570007
+        },
+        {
+          "col": "sentiment",
+          "idx": 1501776000000,
+          "val": 143.74191902469613
+        },
+        {
+          "col": "Close",
+          "idx": 1501776000000,
+          "val": 156.389999
+        },
+        {
+          "col": "sentiment",
+          "idx": 1501862400000,
+          "val": 120.09779551467018
+        },
+        {
+          "col": "Close",
+          "idx": 1501862400000,
+          "val": 0.0
+        },
+        {
+          "col": "sentiment",
+          "idx": 1501948800000,
+          "val": 73.35501758658008
+        },
+        {
+          "col": "Close",
+          "idx": 1501948800000,
+          "val": 0.0
+        },
+        {
+          "col": "sentiment",
+          "idx": 1502035200000,
+          "val": 137.25697307900379
+        },
+        {
+          "col": "Close",
+          "idx": 1502035200000,
+          "val": 158.809998
+        },
+        {
+          "col": "sentiment",
+          "idx": 1502121600000,
+          "val": 196.69541849441032
+        },
+        {
+          "col": "Close",
+          "idx": 1502121600000,
+          "val": 160.080002
+        },
+        {
+          "col": "sentiment",
+          "idx": 1502208000000,
+          "val": 327.8701694324153
+        },
+        {
+          "col": "Close",
+          "idx": 1502208000000,
+          "val": 161.059998
+        },
+        {
+          "col": "sentiment",
+          "idx": 1502294400000,
+          "val": 524.9676256635378
+        },
+        {
+          "col": "Close",
+          "idx": 1502294400000,
+          "val": 155.320007
+        },
+        {
+          "col": "sentiment",
+          "idx": 1502380800000,
+          "val": 248.66343567369984
+        },
+        {
+          "col": "Close",
+          "idx": 1502380800000,
+          "val": 157.479996
+        },
+        {
+          "col": "sentiment",
+          "idx": 1502467200000,
+          "val": 147.43767496721313
+        },
+        {
+          "col": "Close",
+          "idx": 1502467200000,
+          "val": 0.0
+        },
+        {
+          "col": "sentiment",
+          "idx": 1502553600000,
+          "val": 98.0797791907169
+        },
+        {
+          "col": "Close",
+          "idx": 1502553600000,
+          "val": 0.0
+        },
+        {
+          "col": "sentiment",
+          "idx": 1502640000000,
+          "val": 164.8991241281865
+        },
+        {
+          "col": "Close",
+          "idx": 1502640000000,
+          "val": 159.850006
+        },
+        {
+          "col": "sentiment",
+          "idx": 1502726400000,
+          "val": 217.2692301361829
+        },
+        {
+          "col": "Close",
+          "idx": 1502726400000,
+          "val": 161.600006
+        },
+        {
+          "col": "sentiment",
+          "idx": 1502812800000,
+          "val": 212.20509525124743
+        },
+        {
+          "col": "Close",
+          "idx": 1502812800000,
+          "val": 160.949997
+        },
+        {
+          "col": "sentiment",
+          "idx": 1502899200000,
+          "val": 194.4538437152764
+        },
+        {
+          "col": "Close",
+          "idx": 1502899200000,
+          "val": 157.860001
+        },
+        {
+          "col": "sentiment",
+          "idx": 1502985600000,
+          "val": 174.72116451179377
+        },
+        {
+          "col": "Close",
+          "idx": 1502985600000,
+          "val": 157.5
+        },
+        {
+          "col": "sentiment",
+          "idx": 1503072000000,
+          "val": 152.10406709956592
+        },
+        {
+          "col": "Close",
+          "idx": 1503072000000,
+          "val": 0.0
+        },
+        {
+          "col": "sentiment",
+          "idx": 1503158400000,
+          "val": 104.79571046777271
+        },
+        {
+          "col": "Close",
+          "idx": 1503158400000,
+          "val": 0.0
+        },
+        {
+          "col": "sentiment",
+          "idx": 1503244800000,
+          "val": 138.94032719306173
+        },
+        {
+          "col": "Close",
+          "idx": 1503244800000,
+          "val": 157.21000700000002
+        },
+        {
+          "col": "sentiment",
+          "idx": 1503331200000,
+          "val": 181.66487914357913
+        },
+        {
+          "col": "Close",
+          "idx": 1503331200000,
+          "val": 159.779999
+        },
+        {
+          "col": "sentiment",
+          "idx": 1503417600000,
+          "val": 208.38482876382827
+        },
+        {
+          "col": "Close",
+          "idx": 1503417600000,
+          "val": 159.979996
+        },
+        {
+          "col": "sentiment",
+          "idx": 1503504000000,
+          "val": 223.71430157227
+        },
+        {
+          "col": "Close",
+          "idx": 1503504000000,
+          "val": 159.270004
+        },
+        {
+          "col": "sentiment",
+          "idx": 1503590400000,
+          "val": 171.33580499563814
+        },
+        {
+          "col": "Close",
+          "idx": 1503590400000,
+          "val": 159.860001
+        },
+        {
+          "col": "sentiment",
+          "idx": 1503676800000,
+          "val": 143.7158522727274
+        },
+        {
+          "col": "Close",
+          "idx": 1503676800000,
+          "val": 0.0
+        },
+        {
+          "col": "sentiment",
+          "idx": 1503763200000,
+          "val": 134.78533910533943
+        },
+        {
+          "col": "Close",
+          "idx": 1503763200000,
+          "val": 0.0
+        },
+        {
+          "col": "sentiment",
+          "idx": 1503849600000,
+          "val": 137.86936381673854
+        },
+        {
+          "col": "Close",
+          "idx": 1503849600000,
+          "val": 161.470001
+        },
+        {
+          "col": "sentiment",
+          "idx": 1503936000000,
+          "val": 77.85575998076007
+        },
+        {
+          "col": "Close",
+          "idx": 1503936000000,
+          "val": 0.0
+        }
+      ]
+    }
+  ],
+  "height": 500,
+  "legends": [
+    {
+      "fill": "color",
+      "offset": 0,
+      "properties": {},
+      "title": "Matches"
+    }
+  ],
+  "marks": [
+    {
+      "from": {
+        "data": "table",
+        "transform": [
+          {
+            "keys": [
+              "data.col"
+            ],
+            "type": "facet"
+          }
+        ]
+      },
+      "marks": [
+        {
+          "properties": {
+            "enter": {
+              "stroke": {
+                "field": "data.col",
+                "scale": "color"
+              },
+              "strokeWidth": {
+                "value": 2
+              },
+              "x": {
+                "field": "data.idx",
+                "scale": "x"
+              },
+              "y": {
+                "field": "data.val",
+                "scale": "y"
+              }
+            }
+          },
+          "type": "line"
+        }
+      ],
+      "type": "group"
+    }
+  ],
+  "padding": "auto",
+  "scales": [
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.idx"
+      },
+      "name": "x",
+      "range": "width",
+      "type": "time"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.val"
+      },
+      "name": "y",
+      "nice": true,
+      "range": "height"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.col"
+      },
+      "name": "color",
+      "range": "category20",
+      "type": "ordinal"
+    }
+  ],
+  "width": 960
+}
